@@ -1,0 +1,36 @@
+.h1{
+	margin-bottom: -23px;
+}
+
+
+.font{
+	font-family: cursive;
+	font-size: small;
+}
+
+.star{
+	color: red;
+}
+
+.field{
+	clear: both;
+	text-align: right;
+	line-height: 27px;
+}
+
+label{
+	text-align: left;
+	float: left;
+	padding-right: 75px;
+}
+
+label2{
+	text-align: left;
+	float: left;
+	padding-right: 20px;
+}
+
+.main{
+	float: left;
+}
+
