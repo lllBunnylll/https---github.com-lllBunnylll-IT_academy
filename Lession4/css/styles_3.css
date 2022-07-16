@@ -1,0 +1,18 @@
+body{
+	background-image: url(/Lession4/grid_noise.png);
+}
+
+.blue{
+	color: blue;
+}
+
+.red{
+	color: red;
+	font-size:xx-large;
+}
+
+p{
+	width: 150px;
+	margin: 0 auto;
+	padding-top: 20px;
+}

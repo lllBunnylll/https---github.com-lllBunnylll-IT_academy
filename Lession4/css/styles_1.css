@@ -1,0 +1,16 @@
+#p_1{
+	color: red;
+	width: 300px;
+}
+
+.s_1{
+	color: blue;
+}
+
+.s_2{
+	font-weight: bold;
+}
+
+span[title*="Сел"]{
+	color: green;
+}
