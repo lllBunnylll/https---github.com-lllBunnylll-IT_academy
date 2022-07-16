@@ -34,3 +34,5 @@ label2{
 	float: left;
 }
 
+input[type="text"]{width: 200px;}
+input[list="Gender"]{width: 200px;}
