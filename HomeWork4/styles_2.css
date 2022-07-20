@@ -1,0 +1,47 @@
+div{
+	margin-left: 33%;
+	margin-right: 33%;
+	font-weight: bolder;
+}
+
+p{
+	font-weight: normal;
+}
+
+.orange{
+	color: orange;
+	background-color: white;
+}
+
+.big_red_letter{
+	font-size: xx-large;
+	color: red;
+}
+
+.bg_green_col_white{
+	background-color: green;
+	color: white;
+	font-style: italic;
+}
+
+.gray{
+	color: gray;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+.blue{
+	color: blue;
+}
+
+td{
+	text-align: center;
+	background-color: green;
+	color: white;
+}
