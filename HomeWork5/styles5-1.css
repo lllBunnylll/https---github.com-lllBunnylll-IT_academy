@@ -1,9 +1,54 @@
 input[type="checkbox"] {
 	display: none;
 }
-label{
-	padding-left: 20px;
+label[for="red"]{
+	color: red;
+	text-decoration: underline;
+	margin: 20px;
 }
-label::before {
-	content: url(https://www.youtube.com/watch?v=cDdDuKo0HgI); 
+label[for="green"]{
+	color: green;
+	text-decoration: underline;
+	margin: 20px;
+}
+label[for="blue"]{
+	color: blue;
+	text-decoration: underline;
+	margin: 20px;
+}
+span[class="red"] {
+	background: red;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+span[class="green"] {
+	background: green;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+span[class="blue"] {
+	background: blue;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+input:checked ~ span[class="red"]{  /* не понимаю почему пропадают все элементы*/
+	display: none;
+}
+input:checked ~ span[class="green"]{  /*тоже самое*/
+	display: none;
+}
+input:checked ~ span[class="blue"]{  /*что я делаю не так*/
+	display: none;
+}
+input:checked ~ label[for="red"]{  /*прозрачности тоже нет(((*/
+	opacity: 3;
+}
+input:checked ~ label[for="green"]{  /*и тут(((*/
+	opacity: 3;
+}
+input:checked ~ label[for="blue"]{  /*и тут(((*/
+	opacity: 3;
 }

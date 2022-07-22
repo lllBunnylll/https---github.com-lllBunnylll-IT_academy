@@ -60,7 +60,7 @@ body{
 	text-transform: none;
 }
 .features > li{
-	background: url(/HomeWork5/arrow.png) no-repeat;
+	background: url(arrow.png) no-repeat;
 	background-position: 32px 11px;
 	padding: 7px 8px 8px 62px;
 	border-bottom: 1px solid white;
