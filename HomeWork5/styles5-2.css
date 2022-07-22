@@ -3,6 +3,9 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 }
+div{
+	display: inline-block;
+}
 .pricing-block{
 	border-radius: 5px;
 	background: white;
@@ -97,8 +100,6 @@ body{
 }
 
 .standart{
-	margin: -489px;
-	margin-left: 241px;
 	width: 290px;
 }
 .standart .title{
@@ -112,9 +113,6 @@ body{
 }
 
 .ultimate{
-	margin: 500px;
-	margin-top: 85px;
-	margin-left: 835px;
 	width: 290px;
 }
 .ultimate .title{
