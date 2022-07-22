@@ -1,0 +1,9 @@
+input[type="checkbox"] {
+	display: none;
+}
+label{
+	padding-left: 20px;
+}
+label::before {
+	content: url(https://www.youtube.com/watch?v=cDdDuKo0HgI); 
+}
