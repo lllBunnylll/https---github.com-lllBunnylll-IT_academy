@@ -34,21 +34,21 @@ span[class="blue"] {
 	border-radius: 5px;
 	padding: 5px;
 }
-input:checked ~ span[class="red"]{  /* не понимаю почему пропадают все элементы*/
+input#red:checked ~ span[class="red"]{  /* не понимаю почему пропадают все элементы*/
 	display: none;
 }
-input:checked ~ span[class="green"]{  /*тоже самое*/
+input#green:checked ~ span[class="green"]{  /*тоже самое*/
 	display: none;
 }
-input:checked ~ span[class="blue"]{  /*что я делаю не так*/
+input#blue:checked ~ span[class="blue"]{  /*что я делаю не так*/
 	display: none;
 }
-input:checked ~ label[for="red"]{  /*прозрачности тоже нет(((*/
-	opacity: 3;
+input#red:checked ~ label[for="red"]{  /*прозрачности тоже нет(((*/
+	opacity: 0.3;
 }
-input:checked ~ label[for="green"]{  /*и тут(((*/
-	opacity: 3;
+input#green:checked ~ label[for="green"]{  /*и тут(((*/
+	opacity: 0.3;
 }
-input:checked ~ label[for="blue"]{  /*и тут(((*/
-	opacity: 3;
+input#blue:checked ~ label[for="blue"]{  /*и тут(((*/
+	opacity: 0.3;
 }
